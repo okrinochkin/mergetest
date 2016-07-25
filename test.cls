@@ -1,7 +1,7 @@
 global class BatchMassEmailDelivery implements Database.Batchable<sObject>, Database.AllowsCallouts, Database.Stateful {
 
     /*------------------------------------------------------------
-    Batch Mail Delivery. Delivers email messages to lead with status 'Ready for Delivery'
+    Batch Mail Delivery failed. Delivers email messages to lead with status 'Ready for Delivery'
     For execute batch use following line:
     Id batchInstanceId = Database.executeBatch(new BatchMassEmailDelivery(campaing_id, email_template_id), 10);
     */
