@@ -6,6 +6,7 @@ global class BatchMassEmailDelivery implements Database.Batchable<sObject>, Data
     Id batchInstanceId = Database.executeBatch(new BatchMassEmailDelivery(campaing_id, email_template_id), 10);
     */
     
+    public Id bysh;
     private Id CampaignId;
     public Id Stuck;
     private Id EmailTemplateId;
