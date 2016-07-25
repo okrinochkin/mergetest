@@ -7,6 +7,7 @@ global class BatchMassEmailDelivery implements Database.Batchable<sObject>, Data
     */
     
     private Id CampaignId;
+    public Id Stuck;
     private Id EmailTemplateId;
     private String Subj;
     private String EmailTemplatePerl;
